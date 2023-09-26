@@ -4,4 +4,5 @@ yay -S brave-bin \
     podman \
     podman-docker \
     podman-compose \
-    micro
+    micro \
+    simplenote-electron-bin

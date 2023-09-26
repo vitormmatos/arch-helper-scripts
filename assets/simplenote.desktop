@@ -1,5 +1,5 @@
 Name=Simplenote
-Exec=/opt/Simplenote/simplenote --no-sandbox
+Exec=/opt/simplenote/simplenote --no-sandbox
 Terminal=false
 Type=Application
 Icon=simplenote
