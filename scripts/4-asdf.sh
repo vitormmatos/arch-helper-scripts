@@ -6,5 +6,7 @@ asdf install nodejs latest:18
 asdf install nodejs latest
 asdf global nodejs latest
 npm config set prefix '~/.local/'
-npm i -g pnpm && pnpm setup
+npm i -g pnpm
+pnpm setup
+source /home/vitor/.bashrc
 pnpm i -g @angular/cli
