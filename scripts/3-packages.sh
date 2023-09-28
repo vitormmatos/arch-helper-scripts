@@ -1,8 +1,10 @@
-yay -S brave-bin \
-    telegram-desktop-bin \
-    transmission-gtk3 \
+yay -S micro \
     podman \
+    spotify \
+    brave-bin \
     podman-docker \
     podman-compose \
-    micro \
-    simplenote-electron-bin
+    transmission-gtk3 \
+    telegram-desktop-bin \
+    simplenote-electron-bin \
+    gnome-shell-extension-dash-to-dock \
