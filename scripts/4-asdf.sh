@@ -8,5 +8,5 @@ asdf global nodejs latest
 npm config set prefix '~/.local/'
 npm i -g pnpm
 pnpm setup
-source /home/vitor/.bashrc
+source ~/.bashrc
 pnpm i -g @angular/cli
