@@ -6,3 +6,4 @@ sh scripts/5-packages.sh
 sh scripts/6-codium.sh
 sh scripts/7-jabba.sh
 sh scripts/8-node.sh
+sh scripts/9-partitions.sh
