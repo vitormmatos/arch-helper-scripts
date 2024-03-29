@@ -1,1 +1,1 @@
-This is a post-install script for [Arch Linux GUI](https://github.com/arch-linux-gui)
+These are a collection of helper scripts for [Arch Linux](https://archlinux.org/)
