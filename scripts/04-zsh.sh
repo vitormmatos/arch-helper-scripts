@@ -15,8 +15,8 @@ echo 'source ~/.local/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 echo '#Shortcuts' >> ~/.zshrc
 echo 'alias sync="sudo pacman -Syyy"' >> ~/.zshrc
 echo 'alias install="paru -S --skipreview"' >> ~/.zshrc
-echo 'alias update="paru -Su --skipreview"' >> ~/.zshrc
-echo 'alias upgrade="paru -Su --skipreview"' >> ~/.zshrc
+echo 'alias update="sudo pacman -Syu && paru -Su --skipreview"' >> ~/.zshrc
+echo 'alias upgrade="sudo pacman -Syu && paru -Su --skipreview"' >> ~/.zshrc
 echo 'alias search="sudo pacman -Ss"' >> ~/.zshrc
 echo 'alias search-local="sudo pacman -Qs"' >> ~/.zshrc
 echo 'alias pkg-info="sudo pacman -Qi"' >> ~/.zshrc
