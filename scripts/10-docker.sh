@@ -1,4 +1,4 @@
-# Install Docker, Docker Compose and Docker Buildx
+# Docker, Docker Compose and Docker Buildx installer
 # For further Buildx info visit:
 # https://github.com/docker/buildx
 

@@ -1,4 +1,5 @@
-# Installs Mise, a version manager for NodeJS
+# Mise installer
+# Mise is a version manager for NodeJS
 # For more info visit:
 # https://mise.jdx.dev/
 
