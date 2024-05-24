@@ -7,4 +7,4 @@ paru -S --skipreview micro \
     blackbox-terminal \
     simplenote-electron-bin \
     gnome-shell-extension-dash-to-dock \
-    
+    gnome-shell-extension-compiz-windows-effect-git \
