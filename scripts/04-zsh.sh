@@ -13,15 +13,14 @@ echo 'source ~/.local/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 
 # Shortcuts
 echo '#Shortcuts' >> ~/.zshrc
+echo 'alias i="paru -S --skipreview"' >> ~/.zshrc
+echo 'alias up="sudo pacman -Syu && paru -Su --skipreview"' >> ~/.zshrc
+echo 'alias rmv="paru -R"' >> ~/.zshrc
 echo 'alias sync="sudo pacman -Syyy"' >> ~/.zshrc
-echo 'alias install="paru -S --skipreview"' >> ~/.zshrc
-echo 'alias update="sudo pacman -Syu && paru -Su --skipreview"' >> ~/.zshrc
-echo 'alias upgrade="sudo pacman -Syu && paru -Su --skipreview"' >> ~/.zshrc
 echo 'alias search="sudo pacman -Ss"' >> ~/.zshrc
 echo 'alias search-local="sudo pacman -Qs"' >> ~/.zshrc
 echo 'alias pkg-info="sudo pacman -Qi"' >> ~/.zshrc
 echo 'alias local-install="sudo pacman -U"' >> ~/.zshrc
 echo 'alias clr-cache="sudo pacman -Scc"' >> ~/.zshrc
 echo 'alias unlock="sudo rm /var/lib/pacman/db.lck"' >> ~/.zshrc
-echo 'alias remove="paru -R"' >> ~/.zshrc
 echo 'alias autoremove="sudo pacman -Rns"' >> ~/.zshrc
