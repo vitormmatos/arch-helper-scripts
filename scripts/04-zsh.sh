@@ -4,12 +4,12 @@ paru -S zsh zsh-completions zsh-syntax-highlighting --skipreview
 # Config Oh My Zsh 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# Icon font for pk10 theme
+# Icon font for oh-my-posh theme
 paru -S ttf-meslo-nerd-font-powerlevel10k --skipreview
 
-# Config pk10
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.local/powerlevel10k
-echo 'source ~/.local/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
+# Config oh-my-posh
+paru -S oh-my-posh-bin --skipreview
+echo 'eval "$(oh-my-posh init zsh)"' >> ~/.zshrc
 
 # Shortcuts
 echo '#Shortcuts' >> ~/.zshrc
