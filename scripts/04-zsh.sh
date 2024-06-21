@@ -9,7 +9,10 @@ paru -S ttf-meslo-nerd-font-powerlevel10k --skipreview
 
 # Config oh-my-posh
 paru -S oh-my-posh-bin --skipreview
-echo 'eval "$(oh-my-posh init zsh)"' >> ~/.zshrc
+mkdir ~/.config/oh-my-posh
+mkdir ~/.config/oh-my-posh/themes
+cp ../assets/cod3r.omp.toml ~/.config/oh-my-posh/themes
+echo 'eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/themes/cod3r.omp.toml)"' >> ~/.zshrc
 
 # Shortcuts
 echo '#Shortcuts' >> ~/.zshrc
