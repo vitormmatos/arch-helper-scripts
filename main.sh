@@ -1,9 +1,11 @@
 sh scripts/01-keyering.sh
 sh scripts/02-paru.sh
 sh scripts/03-pipewire.sh
-sh scripts/04-zsh.sh
+sh scripts/04-fonts.sh
 sh scripts/05-packages.sh
 sh scripts/06-codium.sh
 sh scripts/07-jabba.sh
 sh scripts/08-node.sh
 sh scripts/09-partitions.sh
+sh scripts/10-docker.sh
+sh scripts/11-zsh.sh

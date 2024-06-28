@@ -1,11 +1,8 @@
 # Install zsh for shell
 paru -S zsh zsh-completions zsh-syntax-highlighting --skipreview
 
-# Config Oh My Zsh 
+# Config Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# Icon font for oh-my-posh theme
-paru -S ttf-meslo-nerd-font-powerlevel10k --skipreview
 
 # Config oh-my-posh
 paru -S oh-my-posh-bin --skipreview
